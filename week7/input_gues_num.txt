@@ -1,0 +1,43 @@
+10
+1 2 3 4 5 6 7 8 9 10
+YES
+1
+NO
+2
+NO
+3
+NO
+4
+NO
+6
+NO
+7
+NO
+8
+NO
+9
+NO
+10
+NO
+HELP
+
+
+
+# (august & beatrice) * 2 <= august
+# text = open('input-1.txt', 'r')
+# temp = set()
+# result = set(map(int, range(1, int(text.readline()) + 1)))
+# lines = text.readlines()
+#
+# for line in lines:
+#     if line.strip() == 'HELP':
+#         break
+#     elif len(result) // 2 >= len(set(map(int, line.split()))):
+#         print('NO')
+#         result -= set(map(int, line.split()))
+#     else:
+#         print('YES')
+#         result &= set(map(int, line.split()))
+#
+# print(*sorted(result))
+# text.close()

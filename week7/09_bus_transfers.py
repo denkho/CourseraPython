@@ -1,0 +1,6 @@
+buses = list(map(int, input().split()))
+bus1 = sorted(buses[0:2])
+bus2 = sorted(buses[2:])
+bus1_set = set(range(bus1[0], bus1[1] + 1))
+bus2_set = set(range(bus2[0], bus2[1] + 1))
+print(len(bus1_set & bus2_set))
