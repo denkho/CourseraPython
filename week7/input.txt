@@ -1,4 +1,5 @@
-2
-Ololo Ololo
-Numbers 1234567890
-Numbers
+3
+Hello Hi
+Bye Goodbye
+List Array
+Goodbye
