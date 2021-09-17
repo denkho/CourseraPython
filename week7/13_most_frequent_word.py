@@ -1,4 +1,4 @@
-fin = open('input.txt', 'r')
+fin = open('input_most_frequent_word.txt', 'r')
 
 text = fin.readlines()
 words = list()
