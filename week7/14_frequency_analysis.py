@@ -1,4 +1,4 @@
-fin = open('input.txt', 'r')
+fin = open('input_frequency_analysis.txt', 'r')
 text = fin.read().split()
 
 answer = dict()
